@@ -3,9 +3,9 @@ class Waypoint {
   final double latitude;
   final double longitude;
 
-  Waypoint({
-    required this.nome, 
-  required this.latitude, 
-  required this.longitude
+  const Waypoint({
+    required this.nome,
+    required this.latitude,
+    required this.longitude,
   });
 }
